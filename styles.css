@@ -14,7 +14,7 @@ body {
   align-items: center;
   background-color: var(--cream);
   font-family: "DM Sans", sans-serif;
-  margin-top: 12.5vh;
+  margin-top: 20vh;
 }
 
 .container-one {
@@ -22,11 +22,11 @@ body {
   height: 130px;
   border: none;
   border-radius: 20px;
-  margin-bottom: 25px;
   background-color: var(--soft-red);
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .text {
@@ -37,14 +37,17 @@ body {
 }
 
 .text p {
+  margin-top: 5px;
   margin-bottom: 8px;
   color: var(--very-pale-orange);
   font-size: 20px;
 }
 
-.text h1 {
+.balance {
   margin-top: 0;
   font-size: 36px;
+  font-weight: 500;
+  color: var(--very-pale-orange);
 }
 
 .shape {
@@ -81,10 +84,12 @@ body {
   background-color: var(--very-pale-orange);
 }
 
-.container-two h1 {
+.container-two .title {
   text-align: left;
+  font-size: 36px;
   padding-left: 40px;
-  padding-top: 8px;
+  padding-top: 40px;
+  font-weight: 700;
 }
 /* chart area start */
 .chart-container {
@@ -156,7 +161,7 @@ body {
 hr.horizontal {
   width: 460px;
   margin-top: 24px;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
   border: 1px solid var(--cream);
 }
 
@@ -184,7 +189,7 @@ hr.horizontal {
   text-align: right;
   height: 100px;
   padding-right: 20px;
-  padding-top: 45px;
+  padding-top: 25px;
 }
 
 span.total {
@@ -221,7 +226,7 @@ span.percentage {
     font-size: 14px;
   }
 
-  .text h1 {
+  .balance {
     font-size: 24;
   }
   .shape {
@@ -240,7 +245,7 @@ span.percentage {
     width: 345px;
     height: 415px;
   }
-  .container-two h1 {
+  .container-two .title {
     padding-left: 18px;
     font-size: 24px;
   }
@@ -259,12 +264,12 @@ span.percentage {
     font-size: 16px;
   }
   .sum-two {
-    padding-right: 18px;
-    padding-top: 16px;
+    padding-right: 20px;
+    padding-top: 12px;
   }
 
   span.total {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   /* chart area start */
