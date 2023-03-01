@@ -20,7 +20,7 @@ fetchData().then((datapoints) => {
     var barrow = document.createElement("tr");
 
     var precent = "%";
-    barrow.style.height = data[i] + 0.5 * data[i] + precent;
+    barrow.style.height = data[i] + 0.4 * data[i] + precent;
 
     //bar color
     var days = ["sun", "tue", "wed", "thu", "fri", "sat", "mon"];
